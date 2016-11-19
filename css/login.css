@@ -1,0 +1,123 @@
+/**center**/
+.center{
+	width:100%;
+	height: 588px;
+	font-family: "微软雅黑";
+	background:url(../img/login/login.jpg) center center no-repeat;	
+}
+.center .centerLogin{
+	width: 1180px;
+	height: 588px;
+	margin: 0 auto;
+}
+.center .login{
+	width: 518px;
+	height: 588px;
+	float: right;
+	overflow: hidden;
+}
+.login .loginTop{
+	float: left; 
+	margin-top: 112px; 
+	width: 385px; 
+	height: 25px; 
+	font-size: 14px; 
+	text-align: right;
+	
+}
+.login .loginTop a{
+	color: #DB3962;
+}
+.login .userName{
+	float: left; 
+	margin-top: 41px; 
+	width: 390px; 
+	height: 30px;
+}
+.login .psw{
+	float: left; 
+	margin-top: 5px; 
+	width: 390px; 
+	height: 30px;
+}
+.login .userName input{
+	margin-left: 150px; 
+	width: 150px; 
+	padding: 1px 3px; 
+	border: none; 
+	height: 28px; 
+	line-height: 28px; 
+	background: #FFFFFF; 
+	font-size: 14px;
+}
+/*.login .promptName{
+	width: 220px;
+	height: 18px;
+	float: left; 
+	margin-left: 100px;
+}*/
+.login .psw input{
+	margin-left: 150px; 
+	width: 158px; 
+	padding: 1px 2px; 
+	border: none; 
+	height: 28px; 
+	line-height: 28px; 
+	background: #FFFFFF; 
+	font-size: 14px;
+}
+.login .promptPsw,.login .promptName{
+	float: left;
+	margin-top: 3px;
+    margin-left: 150px;
+    width: 243px;
+    height: 18px;
+    color: #DB3962;
+}
+.login .help{
+	clear: both;
+	width: 282px;
+	height: 15px;
+	padding-right: 2px;
+	padding-top: 6px;
+	margin-left:60px;
+	margin-bottom:15px;
+	font-size: 14px;
+	color: #333333;
+}
+.login .help .auto{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.login .help .forget{
+	float: right;
+	margin-right: 5px;
+}
+.login .loginBtn{
+	float: left;
+    margin-left: 60px;
+    width: 321px;
+    height: 41px;
+	background: url(../img/login/loginbutn.png) no-repeat;
+	cursor: pointer;
+}
+.login .otherWays{
+	clear: both;
+	float: left;
+    margin-left: 49px;
+    margin-top: 48px;
+    width: 330px;
+    height: 75px;
+    text-align: center;
+}
+.login .otherWays .qq{
+	margin-top: 15px;
+}
+.login .otherWays img{
+	margin: 0 9px;
+    border: none;
+    cursor: pointer;
+}

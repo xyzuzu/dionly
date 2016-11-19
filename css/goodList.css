@@ -1,0 +1,303 @@
+/**center**/
+.center{
+	width: 100%;
+	overflow: hidden;
+}
+.center .centerTop{
+	width: 100%;
+	height: 195px;
+	background: rgb(243,243,243);
+}
+.center .centerBanner{
+	width: 1180px;
+	height: 195px;
+	margin: 0 auto;
+}
+.center .centerTitle{
+	width: 1170px;
+	height: 25px;
+	padding-left: 10px;
+	line-height: 25px;
+	margin: 0 auto;
+}
+.center .centerList{
+	width: 1180px;
+	margin: 0 auto;
+}
+.center .centerLeft{
+	width: 242px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+}
+.center .centerLeft .leftList1,.center .centerLeft .leftList2{
+	width: 240px;
+	border: 1px solid #CCCCCC;
+	height: auto;
+}
+.center .centerLeft .leftList1Title{
+	width: 240px;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 10px;
+    overflow: hidden;
+    font-weight: bold;
+	background: url(../img/goodList/headbg.png);
+}
+.center .centerLeft .leftList1 .listType{
+	width: 240px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	height: auto;
+	
+}
+.center .centerLeft .leftList1 .listType .liTitle{
+	width: 202px;
+	margin-left: 20px;
+	clear: both;
+	line-height: 35px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.center .centerLeft .leftList1 .listType .liTitle span{
+	 padding: 0 9px; 
+	 background: url(../img/goodList/showbg.png) no-repeat 0 1px;
+}
+.center .centerLeft .leftList1 .listType .liTitle .show{
+	width: 182px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	border-bottom: dashed 1px rgb(209,209,209);
+	border-top: dashed 1px rgb(209,209,209);
+	background: rgb(250,250,250);
+	overflow: hidden;
+	display: none;
+}
+.center .centerLeft .leftList1 .listType .liTitle .olList{
+	float: left;
+	width: 91px;
+	line-height: 30px;
+}
+.center .centerLeft .leftList2{
+	margin-top: 20px;
+}
+.center .centerLeft .leftList2 .leftGoods{
+	margin-top: 20px;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+.center .centerLeft .leftList2 .leftGoods .productName{
+	text-align: center;
+	width: 202px;
+	height: 40px;
+	line-height: 40px;
+}
+.center .centerLeft .leftList2 .leftGoods p{
+	width: 202px;
+	height: 35px;
+	text-align: center;
+}
+.center .centerLeft .leftList2 .leftGoods img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #CCCCCC;
+}
+.center .centerLeft .leftList2 .leftGoods .productPrice{
+	color: rgb(225,58,104);
+}
+.center .centerLeft .leftList3 img{
+	width: 240px;
+	border: none;
+}
+.center .centerLeft .leftList3 .prodImg1{
+	margin-top: 20px;
+	border: 1px solid #CCCCCC;
+}
+.center .centerLeft .leftList3 .prodImg2,.center .centerLeft .leftList3 .prodImg3{
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.center .centerRight{
+	float: right;
+	width: 922px;
+	overflow: hidden;
+}
+.center .centerRight .rightTop{
+	float: left;
+    padding: 5px 10px;
+    width: 900px;
+    border: 1px solid #CCCCCC;
+    background: #F8F8F8;
+    overflow: hidden;
+}
+.center .centerRight .rightTop .wordColor{
+	display: block;
+	float: left;
+	margin-right: 30px;
+	color: rgb(225,58,104);
+}
+.center .centerRight .rightTop .choosed{
+	display: inline-block;
+	height: 20px;
+	position: relative;
+	line-height: 20px;
+	padding: 3px 20px 3px 10px;
+	background: rgb(219,57,98);
+	
+}
+.center .centerRight .rightTop .choosed a{
+	font-family: "微软雅黑";
+	color: white;
+	border-right: 1px solid white;
+	padding: 0px;
+}
+.center .centerRight .rightTop  .choosed .closed{
+	color: black;
+	display: inline-block;
+	background: white;
+	position: absolute;
+	height: 14px;
+	line-height: 12px;
+	padding: 1px 1px;
+	top: 6px;
+	right: 8px;
+}
+.center .centerRight .rightTop  .choosed .closed:hover{
+	color: rgb(219,57,98);
+}
+.center .centerRight .rightTop ul{
+	float: left;
+	margin-top: 14px;
+}
+.center .centerRight .rightTop ul li{
+	float: left;
+	height: 12px;
+	line-height: 12px;
+	padding: 1px 20px;
+	margin-left: 4px;
+	border-left: 1px solid #7D7D7D;
+}
+.center .centerRight .rightTop .selected,.center .centerRight .rightTop .category,.center .centerRight .rightTop .type,.center .centerRight .rightTop .material,.center .centerRight .rightTop .price{
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.center .centerRight .rightTop .price{
+	border-bottom:none;
+}
+.center .centerRight .listPage{
+	clear: both;
+	width: 880px;
+	height: 16px;
+	padding: 18px 20px 2px 20px;
+	text-align: right;
+}
+.center .centerRight .listPage a:hover{
+	background: #D8D8D8;
+}
+.center .centerRight .listPage a{
+    margin: 0 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+    border: solid 1px #D2D2D2;
+    background: #EEEEEE;
+}
+.center .centerRight .listPage a:first{
+	padding: 5px 8px;
+    border: solid 1px #D2D2D2;
+    background: #D8D8D8;
+}
+.center .centerRight #listPage{
+	float: left;
+    padding: 22px 20px 30px 20px;
+    width: 880px;
+    text-align: right;
+}    
+.center .centerRight .listOrder{
+	float: left;
+    margin-top: 20px;
+    padding: 0;
+    width: 920px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #CECECE;
+    background: url(../img/goodList/headbg.png);
+    overflow: hidden;
+}
+.center .centerRight .listOrder ul li{
+	float: left;
+	width: 70px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+} 
+.center .centerRight .listOrder .line{
+	float: left;
+	width: 12px;
+	height: 35px;
+	background: url(../img/goodList/linebg.png);
+}
+ 
+.center .centerRight .goodsList{
+	float: left;
+    margin-top: 20px;
+    padding: 0;
+    width: 921px;
+    border-top: 1px solid #CECECE;
+    border-left: 1px solid #CECECE;
+    overflow: hidden;
+}
+    
+.center .centerRight .goodsList .goods{
+	float: left;
+    width: 306px;
+    height: 290px;
+    border-right: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    overflow: hidden;
+}
+.center .centerRight .goodsList .goods .goodsImg{
+	margin: 0 auto;
+    width: 200px;
+    height: 210px;
+}
+.center .centerRight .goodsList .goods .goodsImg img{
+	width: 200px;
+    height: 200px;
+    border: none;
+    margin: 10px;
+}
+.center .centerRight .goodsList .goods .goodsName{
+	width: 306px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.center .centerRight .goodsList .goods .goodsPrice{
+	float: left;
+    padding-left: 13px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+}
+.center .centerRight .goodsList .goods .goodsPrice span{
+	text-decoration: line-through;
+}
+.center .centerRight .goodsList .goods .salePrice{
+	float: right;
+    padding-right: 13px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+   
+}
+.center .centerRight .goodsList .goods .salePrice span{
+	font-size: 14px;
+    color: #DB3962;
+}
