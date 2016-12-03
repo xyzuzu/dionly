@@ -118,12 +118,15 @@ $(function(){
 				num++;
 			});
 			$(".topRight .myCart .cartsNum").html(num);
-			//$(document).find(".topRight .myCart .cartsNum").html(num);
 		}
 			
 	}
 	$(document).on("click",".back",function(){
 		$.cookie("login",$(".topLeft .user").text(),{expires: -1, path: "/"});
+		
+		$(".topLeft .user").html("您好");
+		$(".topLeft .state").html("<a href='login.html'>登录</a>/<a href='register.html'>注册</a>");;
+		console.log($(".topLeft .user").text());
 	});
 	
 });
