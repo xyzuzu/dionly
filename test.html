@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>加密与解密</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="Author" content="zhangxiaoyan">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0
+        }
+        .clearfix{
+            zoom: 1;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            visibility: hidden;
+            clear: both;
+            height: 0;
+        }
+        .regForm{
+            margin: 20px auto;
+            width: 400px;
+            text-align: center;
+            border: 2px solid skyblue;
+        }
+        h2{
+            margin: 10px auto;
+        }
+        #psw{
+            height: 25px;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        #regBtn,#cancel{
+            margin: 20px;
+            border: none;
+            background: skyblue;
+            width: 50px;
+            height: 30px;
+            outline: none;
+            line-height: 30px;
+            border-radius: 3px;
+            color: salmon;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #show{
+            margin:-top:20px;
+            width: 380px;
+            padding: 10px;
+            color: salmon;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="regForm">
+    <h2 class="title">密码的加密与解密</h2>
+        <div class="psw">
+             <label for="psw">密&nbsp;码:</label><input type="password" id="psw" name="psw" />
+        </div>
+        <div class="btns">
+            <button id="regBtn">加密</button>
+            <button id="cancel">解密</button>
+        </div>
+        <div id="show"></div>
+    </div>
+</body>
+    <script type="text/javascript">
+        var encryption = document.getElementById("regBtn");
+        var decryption = document.getElementById("cancel");
+        var show = document.getElementById("show");
+
+        /*加密*/
+        function encrypt(password) {
+
+            var c = String.fromCharCode(password.charCodeAt(0) + password.length);
+
+            for(var i = 1; i < password.length; i++) {
+                c += String.fromCharCode(password.charCodeAt(i) + password.charCodeAt(i - 1));
+            }
+
+            //console.log(c);
+            return c;
+
+        }
+
+        /*解密*/
+        function decrypt(password) {
+
+            password = unescape(password);
+            var c = String.fromCharCode(password.charCodeAt(0) - password.length);
+
+            for(var i = 1; i < password.length; i++) {
+                c += String.fromCharCode(password.charCodeAt(i) - c.charCodeAt(i - 1));
+            }
+
+            //console.log(c);
+            return c;
+
+        }
+
+        encryption.onclick =function(){
+            var psw = document.getElementById("psw").value;
+            if(psw == "" || psw == "undefined"){
+                show.innerHTML = "请先输入密码";
+            }else{
+
+                show.innerHTML = "加密之后密码显示为：" + encrypt(psw);
+            }
+            console.log("dinj");
+
+
+        };
+        decryption.onclick = function(){
+
+            var psw = document.getElementById("psw").value;
+            var pswd = encrypt(psw);
+             if(psw == "" || psw == "undefined"){
+                show.innerHTML = "先输入密码才能解密";
+            }else{
+                show.innerHTML = "解密之后密码显示为：" + decrypt(pswd);
+            }
+
+        }
+
+    </script>
+</html>
