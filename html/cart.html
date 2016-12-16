@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的珠宝箱-戴欧妮珠宝</title>
+		<meta name="Author" content="zhangxiaoyan">
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/cart.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../js/common.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/cart.js" ></script>
+	</head>
+	<body>
+		<div class="cartTop"></div>
+		<div class="cartContent">
+			<div class="myCart">
+				<div class="topLine"></div>
+				<div class="cartTitle">我的珠宝箱</div>
+				<div class="emptyLine"></div>
+				<!--购物车没有商品时-->
+				<div class="cartEmpty" style="display: none;">
+					<div class="emptyPrompt">您的珠宝箱暂时没有找到商品</div>
+				</div>
+				<!--有商品时-->
+				<div class="shoppingCart">
+					<!--购物车头部-->
+					<div class="cartHeader">
+						<ul class="cartHeader">
+							<li>商品</li>
+							<li>型号</li>
+							<li>尺寸</li>
+							<li>刻字内容</li>
+							<li>市场价格</li>
+							<li>优惠</li>
+							<li>成交价</li>
+							<li>操作</li>
+						</ul>
+					</div>
+					<div class="cartGoods" id="cartGoods">
+						<!--<ul>
+							<li><img src="../img/goodDetail/prif4.jpg"/></li>
+							<li><a href="#">怦然心动吊坠，材质：D，镶口：65-70分 DPW124441D</a></li>
+							<li>--</li>
+							<li></li>
+							<li class='marPrice'>1310.00</li>
+							<li class='sale'>620.00</li>
+							<li class='malPrice'>690.00</li>
+							<li>
+								<a class="delete">删除</a>
+								<a class="revise">修改</a>
+							</li>
+						</ul>
+						<ul>
+							<li><img src="../img/goodDetail/prif5.jpg"/></li>
+							<li><a href="#">遇见❤缘，材质：D，镶口：55-60分 DRW124505D</a></li>
+							<li>4</li>
+							<li></li>
+							<li class='marPrice'>3470.00</li>
+							<li class='sale'>1456.00</li>
+							<li class='malPrice'>1618.00</li>
+							<li>
+								<a class="delete">删除</a>
+								<a class="revise">修改</a>
+							</li>
+						</ul>-->
+					</div>
+					<!--删除提示-->
+					<!--<div class="deleteProm">
+
+					</div>-->
+				</div>
+				<!--结算-->
+				<div class="checkout">
+					<div class="checkoutLeft">
+						共&nbsp;<span class="counts"><!--2--></span>&nbsp;件商品
+						<a class="emptyCarts" href="#">&times;清空购物车</a>
+						<a class="goBuy" href="goodList.html">继续购买</a>
+					</div>
+					<div class="checkoutRight">
+						商品总金额￥<span class="primePrice"><!--4384.00--></span> -
+						优惠金额￥<span class="discount"><!--2076.00--></span> =
+						订单总金额<span class="specialPrice"><!--￥2308.00--></span>
+						<button class="checkoutBtn"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--热门推荐-->
+		<div class="hostest">
+			<div class="hostestTitle">
+				<div class="hostTitleLeft">热门推荐</div>
+				<div class="hostTitleRight"><a href="#">更多</a></div>
+			</div>
+			<div class="hostestContent">
+				<div class="hostPre"></div>
+				<ul>
+					<li>
+						<a href="#"><img src="../img/goodList/left/FR-8039-0.jpg"/></a>
+						<p><a href="#">永恒之心</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="../img/goodDetail/left13.jpg"/></a>
+						<p><a href="#">爱上爱</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="../img/goodList/right/2-19.jpg"/></a>
+						<p><a href="#">樱桃眷</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="../img/goodList/right/3-11.jpg"/></a>
+						<p><a href="#">柔情似水</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="../img/goodList/right/2-1.jpg"/></a>
+						<p><a href="#">砰然心动</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="../img/goodList/right/2-18.jpg"/></a>
+						<p><a href="#">狐绕缘</a></p>
+					</li>
+				</ul>
+				<div class="hostNex"></div>
+			</div>
+		</div>
+		<!--遮罩层-->
+		<div class="overlay"></div>
+		<!--删除按钮弹窗-->
+		<div class="tanchuang">
+
+			<div class="tcClosed">
+				<span class="closeLeft">操作提示</span>
+				<span class="closeRight">&times;</span>
+			</div>
+			<div class="tcQueren">
+				<p>确定删除珠宝箱商品吗？</p>
+				<button class="yes">确定</button>
+				<button class="no">取消</button>
+			</div>
+		</div>
+		<!--删除按钮弹窗end-->
+			<!--修改按钮弹窗-->
+		<div class="tanchuangChange">
+
+			<div class="tcClosedcg">
+				<span class="closeLeft">修改商品</span>
+				<span class="closeRightcg">&times;</span>
+			</div>
+			<div class="tcQuerencg">
+				<p>钻石重量(镶口)
+					<select>
+						<option>1-10分</option>
+						<option>10-15分</option>
+						<option>15-20分</option>
+						<option>20-25分</option>
+						<option>25-30分</option>
+						<option>30-35分</option>
+						<option>35-40分</option>
+						<option>40-45分</option>
+						<option>45-50分</option>
+						<option>50-55分</option>
+						<option>55-60分</option>
+						<option>60-65分</option>
+						<option>65-70分</option>
+						<option>70-75分</option>
+						<option>75-80分</option>
+						<option>80-85分</option>
+						<option>95-100分</option>
+						<option>100-105分</option>
+						<option>105-110分</option>
+						<option>110-115分</option>
+						<option>115-120分</option>
+						<option>120-125分</option>
+					</select></p>
+				<button class="yescg">确定</button>
+				<button class="nocg">取消</button>
+			</div>
+		</div>
+		<!--删除按钮弹窗end-->
+		<div class="cartFooter"></div>
+		<div class="floatNav"></div>
+	</body>
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<meta name="Author" content="zhangxiaoyan">
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/goodDetail.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/goodDetail.js" ></script>
+		<script type="text/javascript" src="../js/common.js" ></script>
+	</head>
+	<body>
+		<div class="headerTop"></div>
+		<div class="center">
+			<div class="centerTop">
+				<a href="index.html">首页</a>&nbsp;&nbsp;&gt;<a href="goodList.html">&nbsp;&nbsp;产品</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span class="prodName">怦然心动吊坠</span>
+			</div>
+			<div class="mainDetails">
+				<div class="topLine"></div>
+				<div class="mainImg">
+					<div class="bigImg">
+						<div class="bImg">
+							<!--<img class="smallerImg" src="../img/goodDetail/pr1.jpg" />-->
+						</div>
+						<div class="fangdajing"></div>
+						<div class="bigerPic">
+							<!--<img class="bigerImg" src="../img/goodDetail/pr1.jpg" />-->
+						</div>
+					</div>
+					<div class="smallImg">
+						<div class="smallone">
+							<ul>
+								<!--<li class="firstPic"><img src="../img/goodDetail/pr1.jpg"/></li>
+								<li><img src="../img/goodDetail/pr2.jpg"/></li>
+								<li><img src="../img/goodDetail/pr3.jpg"/></li>
+								<li><img src="../img/goodDetail/pr4.jpg"/></li>-->
+							</ul>
+							<div class="pre"></div>
+							<div class="next"></div>
+
+						</div>
+					</div>
+				</div>
+				<div class="mainInfo">
+					<div class="goodsInfo">
+						<div class="text">产品名称 ： </div>
+						<div class="diamName">砰然心动吊坠</div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">市场价格 ： </div>
+						<div class="marketPrice">￥<span>2209.00</span></div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">商城价格 ： </div>
+						<div class="mallPrice">￥<span>1163.00</span></div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">选用材质 ： </div>
+						<div class="cMaterial"><span class="cl">18k</span><span>PT900</span><span>PT950</span></div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">钻石重量 ： </div>
+						<div class="weight">
+							<select>
+								<option>1-10分</option>
+								<option>10-15分</option>
+								<option>15-20分</option>
+								<option>20-25分</option>
+								<option>25-30分</option>
+								<option>30-35分</option>
+								<option>35-40分</option>
+								<option>40-45分</option>
+								<option>45-50分</option>
+								<option>50-55分</option>
+								<option>55-60分</option>
+								<option>60-65分</option>
+								<option>65-70分</option>
+								<option>70-75分</option>
+								<option>75-80分</option>
+								<option>80-85分</option>
+								<option>95-100分</option>
+								<option>100-105分</option>
+								<option>105-110分</option>
+								<option>110-115分</option>
+								<option>115-120分</option>
+								<option>120-125分</option>
+							</select>
+							<a href="goodList.html">现在去选钻石？</a>
+						</div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">价格说明 ： </div>
+						<div class="priceExplain">此售价为整个托的售价</div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">证书说明 ： </div>
+						<div class="certExplain">单个钻石小于20分的钻饰，只出具成品鉴定书</div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">特别说明 ： </div>
+						<div class="special">15个工作日，特快定制6工作日，不含邮寄时间，有问题请<a href="#">咨询客服</a></div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">库存配送 ： </div>
+						<div class="deliver">有货，全国顺丰保价包邮</div>
+					</div>
+					<div class="goodsInfo">
+						<div class="text">备注 ： </div>
+						<div class="others">定制售价含20%损耗，最终价格按成品金重多退少补</div>
+					</div>
+					<div class="submit">
+						<div class="cart"></div>
+						<div class="collect"></div>
+					</div>
+				</div>
+			</div>
+			<div class="details">
+				<!---详情左边--->
+				<div class="left">
+					<div class="leftTitle">百分百安心购物保证</div>
+					<div class="promisebg">
+						<img src="../img/goodDetail/common/security.gif" />
+					</div>
+					<div class="leftHost">热门推荐</div>
+					<div class="hostGoods">
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left1.jpg" />
+							</a>
+							<p><a href="#">永恒之心</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left2.jpg" />
+							</a>
+							<p><a href="#">花眸</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left3.jpg" />
+							</a>
+							<p><a href="#">最爱</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left4.jpg" />
+							</a>
+							<p><a href="#">True love</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left5.jpg" />
+							</a>
+
+							<p><a href="#">缘徊</a></p>
+						</div>
+					</div>
+					<div class="leftHistory">最近浏览记录</div>
+					<div class="historyGoods">
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left6.jpg" />
+							</a>
+							<p><a href="#">遇见❤缘</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left7.jpg" />
+							</a>
+							<p><a href="#">砰然心动吊坠</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left8.jpg" />
+							</a>
+							<p><a href="#">花好月圆</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left9.jpg" />
+							</a>
+							<p><a href="#">一心一意项链</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left10.png" />
+							</a>
+
+							<p><a href="#">爱情手镯</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left11.jpg" />
+							</a>
+							<p><a href="#">睿智男戒</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left12.jpg" />
+							</a>
+							<p><a href="#">V形女戒</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left13.jpg" />
+							</a>
+							<p><a href="#">爱上爱</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left14.jpg" />
+							</a>
+							<p><a href="#">0.35克拉EX切工D颜色SI1净度</a></p>
+						</div>
+						<div class="hostGoodsList">
+							<a href="#">
+								<img src="../img/goodDetail/left15.jpg" />
+							</a>
+
+							<p><a href="#">久爱</a></p>
+						</div>
+					</div>
+
+
+				</div>
+				<!---详情右边--->
+				<div class="right">
+					<!--详情吸顶菜单-->
+					<div class="rightTitle">
+						<ul>
+							<li><a href="#prodInfo">产品信息</a></li>
+							<li><a href="#prodServ">产品服务</a></li>
+							<li><a href="#prodQues">常见问题</a></li>
+						</ul>
+					</div>
+					<!--产品信息-->
+					<div class="prodInfo" id="prodInfo">
+						<!--<img src="../img/goodDetail/prif1.jpg" />
+						<img src="../img/goodDetail/prif2.jpg"/>
+						<img src="../img/goodDetail/prif3.jpg"/>
+						<img src="../img/goodDetail/prif4.jpg"/>
+						<img src="../img/goodDetail/prif5.jpg" />
+						<img src="../img/goodDetail/prif6.jpg"/>
+						<img src="../img/goodDetail/prif7.jpg"/>
+						<img src="../img/goodDetail/prif8.jpg"/>-->
+					</div>
+					<!--产品服务-->
+					<div class="prodServ" id="prodServ">
+						<!--权威证书-->
+						<div class="coa">
+							<div class="servTitle">权威证书</div>
+							<div class="coaContent">
+								<p>证书是钻石质量的保证，也是钻石身份的象征。每一颗戴欧妮极致璀璨美钻，均配备美国宝石学院GIA国际鉴定证书或国家CMA权威证书，可登录GIA和CMA网站复核。</p>
+								<img src="../img/goodDetail/common/gia1.jpg" />
+							</div>
+						</div>
+						<!--专业品质-->
+						<div class="quality">
+							<div class="servTitle">专业品质</div>
+							<div class="quaContent">
+								<p>
+									优质选材与顶尖工艺 是戴欧妮缔造非凡美钻的秘密，依托自有国际珠宝创意工厂，戴欧妮汇聚全球钻饰加工顶尖技术，层层严选精品钻石，以精湛的设计与工艺，
+									完美制作璀璨钻饰，光芒闪耀，华美，尊贵，优雅，引领风尚，见证非凡。
+								</p>
+								<!--1-->
+								<div class="quaApart">
+									<div class="quaApartTop">
+										<div class="quaApartContent">
+											<b>1.精选品级 特别璀璨</b>
+											<p>
+												见证非凡的戴欧妮克拉美钻，是以严格标准，从精品钻石之中精选出来的高品级美钻。多年来，戴欧妮一直不断搜罗卓越美钻，从钻石大国南非到钻石之都比利时安特卫普，
+												再到印度、香港等世界各地，经过长时间评估测定，严选克拉钻石当中的佼佼者，每一颗的品质都非同凡响，因此特别闪耀。
+											</p>
+										</div>
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/lazyload.gif" />
+										</div>
+									</div>
+									<div class="quaApartBot">
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/cpt2.jpg" />
+										</div>
+										<div class="quaApartContent">
+											<b>2. 极致切割 完美闪耀</b>
+											<p>
+												在戴欧妮克拉美钻流光溢彩的传奇历程中，切割是其中的重要环节。未经切割的钻石，就像冰糖一样，朴实而内敛。划线，劈开，切割，从矿石到钻石，从质朴到闪耀，
+												正式拉开序幕。为了唤醒钻石深藏的美，戴欧妮不惜切割损耗更多的原坯，以坚持完美的切割比例，完美释放克拉美钻的璀璨光芒。
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--2-->
+								<div class="quaApart">
+									<div class="quaApartTop">
+										<div class="quaApartContent">
+											<b>3. 完美打磨 光滑如镜</b>
+											<p>
+												钻石的每个切面，都需要经过细腻的打磨抛光，确保形状大小、对称性以及角度精确无瑕，才能让光线完美穿透，产生美妙的闪耀，
+												这需要经验丰富的资深技师才能够完成。戴欧妮克拉美钻，每个切面均经过精准切磨，光滑度如同镜面，其亮光度、火彩以及闪光，都达到完美的状态，光芒极致璀璨。
+											</p>
+										</div>
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/cpt3.jpg" />
+										</div>
+									</div>
+									<div class="quaApartBot">
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/cpt4.jpg" />
+										</div>
+										<div class="quaApartContent">
+											<b>4. 顶尖设计 再创经典</b>
+											<p>
+												戴欧妮精品克拉钻戒的设计师，以卓越的天赋，秉承全球钻戒百年经典，以经典的镶嵌与款式为蓝本，精准把握贵金属材料的特性，根据不同形状钻石的不同美态，
+												融合当今最时尚的潮流元素，展现出丰富又独特的不同风格，完美展现克拉美钻的闪耀风采，更成就出全新的钻戒经典。
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--3-->
+								<div class="quaApart">
+									<div class="quaApartTop">
+										<div class="quaApartContent">
+											<b>5. 从容镶嵌 技艺精湛</b>
+											<p>
+												专注与细致，一向是戴欧妮珠宝技师的工作态度。长时间的技术积累，戒指的每个细节，早已了然于心，旁人看来惊心动魄的克拉钻镶嵌，早就做到胸有成竹。
+												来自对每个镶爪硬度韧性、火候温度的敏锐感觉与精准把握。电光火石之间，克拉美钻的镶嵌自然水到渠成，毫厘不差，稳妥而美丽非凡。
+											</p>
+										</div>
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/cpt5.jpg" />
+										</div>
+									</div>
+									<div class="quaApartBot">
+										<div class="quaApartImg">
+											<img src="../img/goodDetail/common/cpt6.jpg" />
+										</div>
+										<div class="quaApartContent">
+											<b>6. 巧夺天工 至美无瑕</b>
+											<p>
+												完美难得，尤其对于克拉钻戒，毫厘之差，即可能沦为普通钻戒。完美的克拉钻戒，要求细腻的表面抛光加工，这需要一份对完美的执着，以及对表面工艺的精深把握。
+												每一枚克拉钻戒，戴欧妮资深技师都不容许自己留下半点遗憾，让每颗钻戒的美浑然天成，质感顺滑如丝，佩戴体验无比美妙。
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--个性刻字-->
+						<div class="letter">
+							<div class="servTitle">个性刻字</div>
+							<div class="letContent">
+								<p>
+									优质选材与顶尖工艺 是戴欧妮缔造非凡美钻的秘密，依托自有国际珠宝创意工厂，戴欧妮汇聚全球钻饰加工顶尖技术，层层严选精品钻石，以精湛的设计与工艺，完美制作璀璨钻饰，
+									光芒闪耀，华美，尊贵，优雅，引领风尚，见证非凡。
+								</p>
+								<img src="../img/goodDetail/common/cpt7.jpg" />
+							</div>
+						</div>
+						<div class="pack">
+							<div class="servTitle">精美包装</div>
+							<div class="pacContent">
+								<p>精美的珠宝，需要精致的包装，戴欧妮提供的免费包装，不单给予珠宝妥帖的保护，时尚的设计与优良的做工、精致、优雅，是品位的象征，送礼更显尊贵。</p>
+							</div>
+						</div>
+						<div class="logistics">
+							<div class="servTitle">放心物流</div>
+							<div class="logContent">
+								<p>为了珠宝的安全与快捷送达，戴欧妮全程采用顺丰快递进行配送，并全部购买高额保险，通过与合作伙伴的专业协作，提供了安全快速的服务。</p>
+							</div>
+						</div>
+						<!--无忧售后-->
+						<div class="afterServ">
+							<div class="servTitle">无忧售后</div>
+							<div class="aftContent">
+								<p>
+									通过优质选材与精湛工艺，戴欧妮为客户提供高品质的产品。因珠宝的特殊性，黄金产品和定制类产品一经售出概不退换，其它产品30天内如有质量问题，请联系售后客服办理退换货。
+								</p>
+								<div class="aftLeft">
+									<dl>
+										<dt><img src="../img/goodDetail/common/fuwu1.jpg"/></dt>
+										<dd>
+											<b>终生免费保养清洗</b>
+											我们提供了为您购买的戴欧妮饰品提供终身免费保养清洗服务。
+										</dd>
+									</dl>
+									<dl>
+										<dt><img src="../img/goodDetail/common/fuwu2.jpg"/></dt>
+										<dd>
+											<b>终身免费修改指圈</b>
+											戒指手寸大小改动，在工艺过程中会存在重金属损耗，详情请质询戴欧妮珠宝顾问。
+										</dd>
+									</dl>
+								</div>
+								<div class="aftRight">
+									<dl>
+										<dt><img src="../img/goodDetail/common/fuwu5.jpg"/></dt>
+										<dd>
+											<b>权威认证 保证质量</b>
+											戴欧妮每件钻饰都配有国家CMA或国际权威机构出具的珠宝钻石鉴定证书，确保产品品质。
+										</dd>
+									</dl>
+									<dl>
+										<dt><img src="../img/goodDetail/common/fuwu6.jpg"/></dt>
+										<dd>
+											<b>VIP免费翻新</b>
+											所有尊贵的戴欧妮VIP会员可另享每年免费翻新一次的尊贵服务。
+										</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<!--钻石保养-->
+						<div class="maintain">
+							<div class="servTitle">钻饰保养</div>
+							<div class="maiContent">
+								<p>
+									品质出众的戴欧妮钻石，以领先的设计与精湛工艺，光彩照人，佩戴起来自然拥有超凡魅力。钻石饰品珍贵，需要小心佩戴与呵护，以下是日常保养建议：
+								</p>
+								<div class="maiContentLore">
+									<div class="maiContentLoreLeft">
+										<img src="../img/goodDetail/common/cpt11.jpg" alt="钻石保养1" />
+									</div>
+									<div class="maiContentLoreCenter">
+										<p><b style="font-weight: bold;">1. 懂得清洁钻石</b></p>
+										<p>保持钻石的干净，钻石的璀璨取决于可以进入其中光线的多少，手指的触摸会留下污迹，从而影响光线反射，可选用质保单提供的清洗方法进行清洁。</p>
+										<p>&nbsp;</p>
+										<p><b style="font-weight: bold;">2. 懂得保护钻石</b></p>
+										<p>当不佩戴时，请始终将钻饰单独存放在首饰盒中，虽然钻石是人类所知的最坚硬物质之一，但钻石与钻石之间会产生刮擦损伤，所以请将钻石首饰单独存放。</p>
+									</div>
+									<div class="maiContentLoreRight">
+										<img src="../img/goodDetail/common/cpt12.jpg" alt="钻石保养1" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--常见问题-->
+					<div class="prodQues" id="prodQues">
+						<div>
+							<div class="servTitle" style="font-weight: bold;">问：什么是钻石的"4C"？ 那个因素最重要？</div>
+							<p>
+								答：4C是衡量钻石价值的重要指标，具体指切工（cut）、重量（carat）、净度（clarity）、颜色（color）。这其中，切工是最重要的，
+								因为切工的好坏直接决定钻石是不是闪亮，可以说，切工给钻石缔造了第二次生命。
+							</p>
+						</div>
+						<div>
+							<div class="servTitle" style="font-weight: bold;">问：什么是八心八箭？</div>
+							<p>
+								答：八心八箭在钻石的切工上，代表一种极致的切割状态，在具有特定切割比例的钻石中看到的是一种光学现象，由钻石刻面和折射出的刻面倒影组成。
+								八心八箭是丘比特切工的代表作，和经典比利时切工相比，丘比特切工对钻石毛胚要求很高，只有低台宽比和亭深比，并且对称性很好才能形成标准"八心八箭"现象。
+							</p>
+						</div>
+						<div>
+							<div class="servTitle" style="font-weight: bold;">问：钻石是不是级别越高越好？</div>
+							<p>
+								答：作为收藏投资来说，自然是级别越高越好，作为日常佩带，我们推荐有高性价比的钻石，这是明智的钻饰消费。
+							</p>
+						</div>
+						<div>
+							<div class="servTitle" style="font-weight: bold;">问：钻石证书有哪些？</div>
+							<p>
+								答：因为钻石鉴定分级的专业性，只有钻石界最专业最权威的鉴定机构才能以其最严谨、最一致和最公正的鉴定结果为钻石出具身份证明。
+								戴欧妮提供的钻石珠宝饰品均由中国国家级鉴定机构检验鉴定，譬如国家宝玉石质量监督检验中心（简称国检），和国际权威鉴定机构如美国宝石学院（简称GIA），其严格检验出具的证书在全球都可通用。
+							</p>
+						</div>
+						<div>
+							<div class="servTitle" style="font-weight: bold;">问：拿到钻石和证书后，如何复检？</div>
+							<p>
+								答：首先，可登录各相关鉴定证书上的网址，输入信息查询饰品的鉴定情况，亦可携带钻石饰品就近到相关检验机构申请复检。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerBot">
+
+		</div>
+		<div class="floatNav"></div>
+	</body>
+</html>
