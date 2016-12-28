@@ -1,0 +1,8 @@
+title: Dionly
+description: 分享一下两个月前利用闲暇时间完成的一个仿戴欧妮钻石网的项目。包含有首页，登录，注册，商品列表，商品详情页以及购物车页面。其中，主页、商品列表以及商品详情页的主要内容都是通过ajax请求json模拟后端数据的方式，实现页面内容的显示效果，并且也实现了点击商品列表的商品跳转对应商品的详情页的效果。登录，注册以及购物车的功能也基本实现。
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
