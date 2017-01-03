@@ -1,0 +1,209 @@
+.center{
+	width: 100%;
+	height: 606px;
+	font-family: "微软雅黑";
+	background: url(../img/login/reg.jpg) center center no-repeat;
+}
+.center .centerReg{
+	width: 1180px;
+	height: 606px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.center .centerReg .reg{
+	width: 518px;
+	height: 606px;
+	float: right;
+	overflow: hidden;
+	
+}
+.center .centerReg .reg .regTop{
+	width: 375px;
+	float: left;
+	height: 25px;
+	margin-top: 70px;
+	padding-right: 10px;
+	text-align: right;
+	font-size: 14px;
+	overflow: hidden;
+}
+.center .centerReg .reg .regTop a{
+	color: #DB3962;
+}
+.center .centerReg .reg .userName{
+	width: 390px;
+	height: 30px;
+	margin-top: 42px;
+	float: left;
+}
+.center .centerReg .reg .userName #userName{
+	width: 150px;
+	height: 28px;
+	float: left;
+	margin-left: 150px;
+	padding: 1px 3px;
+	line-height: 28px;
+	border: none;
+}
+.center .centerReg .reg .promptName{
+    float: left;
+    margin-top: 3px;
+    width: 234px;
+    height: 18px;
+    color: #DB3962;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.center .centerReg .reg .promptCheck{
+	float: left;
+	margin-top: 3px;
+    width: 234px;
+    height: 18px;
+    color: #DB3962;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.center .centerReg .reg .promptPhoneCode{
+	float: left;
+	margin-top: 3px;
+    width: 234px;
+    height: 18px;
+    color: #DB3962;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.center .centerReg .reg .promptPswag{
+	float: left;
+	margin-top: 3px;
+    width: 234px;
+    height: 18px;
+    color: #DB3962;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.center .centerReg .reg .promptPswbg{
+	float: left;
+	margin-top: 3px;
+    width: 234px;
+    height: 18px;
+    color: #DB3962;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.center .centerReg .reg .promptReg{
+    float: left;
+    margin-left: 60px;
+    margin-top: -2px;
+    width: 250px;
+    height: 18px;
+    color: #DB3962;
+    overflow: hidden;
+}
+.center .centerReg .reg .check,.center .centerReg .reg .phoneCode,.center .centerReg .reg .setPsw1,.center .centerReg .reg .setPsw2{
+	float: left;
+	margin-top: 3px;
+	width: 390px;
+	height: 30px;
+}
+.center .centerReg .reg .check .checkCode{
+	float: left;
+    width: 80px;
+    padding: 1px 3px;
+    border: none;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 150px;
+    background: #FFFFFF;
+    font-size: 14px;
+}
+.center .centerReg .reg .check .jiaoyan,.center .centerReg .reg .check #change{
+	display: block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.center .centerReg .reg .check #jiaoyan{
+	color: cornflowerblue;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+}
+.center .centerReg .reg .phoneCode #phoneCode{
+	float: left;
+	width: 80px;
+    padding: 1px 3px;
+    border: none;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 150px;
+    background: #FFFFFF;
+    font-size: 14px;
+}
+.center .centerReg .reg .phoneCode .getBtn{
+	width: 94px;
+	height: 28px;
+	padding: 1px 3px;
+	float: left;
+	margin-left: 14px;
+	line-height: 28px;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+.center .centerReg .reg .setPsw1,.center .centerReg .reg .setPsw2{
+	width: 156px;
+	height: 30px;
+	float: left;
+	margin-left: 150px;
+	width:86px ;
+	line-height: 30px;
+	border: none;
+}
+.center .centerReg .reg .setPsw1 input,.center .centerReg .reg .setPsw2 input{
+	width: 156px;
+	height: 28px;
+	float: left;
+	padding: 1px 3px;
+	line-height: 28px;
+	font-size: 14px;
+	border: none;
+}
+.center .centerReg .reg .agree{
+	float: left;
+	margin-left: 60px;
+	width: 390px;
+	height: 18px;
+	line-height: 18px;
+	color: #222222;
+}
+.center .centerReg .reg .agree input{
+	float: left;
+    margin: 3px 3px 3px 4px;
+}
+.center .centerReg .reg .regBtn{
+	float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 301px;
+    height: 38px;
+	background: url(../img/login/regbutn.png) no-repeat;
+	cursor: pointer;	
+}
+.center .centerReg .reg .otherWays{
+	float: left;
+    margin-left: 50px;
+    margin-top: 36px;
+    width: 315px;
+    height: 75px;
+    text-align: center;
+}
+.center .centerReg .reg .otherWays .qq{
+	margin-top: 15px;
+}
+.center .centerReg .reg .otherWays img{
+	margin: 0 9px;
+    border: none;
+    cursor: pointer;
+}

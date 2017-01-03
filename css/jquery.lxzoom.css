@@ -1,0 +1,8 @@
+.bigPic img{width:300px;}
+.lxzoom{position:relative;display:inline-block;}
+.lxzoom .minzoom{position: absolute;width:100px;height:100px;border:1px solid #fc0;z-index: 120px;;
+	background-color:#ff0;background-color: rgba(255,255,0,.3);filter:alpha(Opacity=30);}
+
+/*大图*/
+.lxbzoom{position: absolute;width:700px;height:1000px;overflow:hidden;}
+.lxbzoom img{position: absolute;left:0;right:0;}

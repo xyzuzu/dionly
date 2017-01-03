@@ -1,0 +1,435 @@
+/**************banner******************/
+.banner{
+	height: 420px;
+	overflow: hidden;
+	position: relative;
+	min-width: 1180px;
+}
+.banner .bannerImg{
+	width: 100%;
+	height: 420px;
+	
+}
+.banner .bannerImg li{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	top: 0;	
+	opacity: 1;
+}
+.banner .bannerImg img{	
+	width: 100%;
+	/*min-width: 1180px;*/
+	height: 420px;
+	max-height: 420px;
+}
+.banner .order{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	bottom: 20px;
+}
+.banner .order li span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 1px solid #555555;
+	border: none;
+	background: rgb(101,101,101);
+	
+}
+.banner .order li span.ordBgColor{
+	background: rgb(236,120,21);
+}
+.banner .order li{
+	float: left;
+}
+/****activity****/
+.activity{
+	width: 1180px;
+	height: 228px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.activity a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.activity p{
+	text-align: center;
+	height: 32px;
+	line-height: 22px;
+}
+
+.activity .activityLeft,.activity .activityCenter,.activity .activityRight{
+	float: left;
+	height: 204px;
+	margin: 14px auto;
+	overflow: hidden;
+}
+.activity .activityLeft{
+	width: 310px;
+	padding: 4px 4px;
+	border: 1px solid #DDDDDD;
+	overflow: hidden;
+}
+.activity .activityLeft img{
+	width: 310px;
+	height: 170px;
+}
+.activity .activityCenter {
+	width: 500px;
+	padding: 4px 4px;
+	margin-left: 15px;
+	border: 1px solid #DDDDDD;
+	overflow: hidden;
+}
+.activity .activityCenter img{
+	width: 500px;
+	height: 170px;
+}
+.activity .activityRight {
+	width: 308px;
+	padding: 5px 5px;
+	margin-left: 15px;
+	border: 1px solid #DDDDDD;
+	overflow: hidden;
+}
+.activity .activityRight img{
+	width: 310px;
+	height: 170px;
+}
+/**firstLine**/
+.firstLine{
+	margin-top: 30px;
+	width: 1178px;
+	border: 1px solid #DDDDDD;
+	height: 158px;
+	margin: 0 auto;
+	background: rgb(249,249,249);
+	overflow: hidden;
+}
+.firstLine .firstLineLeft,.firstLine .firstLineRight{
+	float: left;
+}
+.firstLine .firstLineLeft{
+	width: 616px;
+	height: 122px;
+	padding: 19px 0px;
+}
+.firstLine .firstLineLeft img{
+	width: 597px;
+	margin-left: 18px;
+	height: 122px;
+}
+.firstLine .firstLineRight{
+	width:542px;
+	height: 122px;
+	padding: 19px 10px;
+	background:url(../img/index/firstLine/firstLineRightbg.png) no-repeat;
+}
+.firstLine .firstLineRight .rightOne,.firstLine .firstLineRight .rightTwo,.firstLine .firstLineRight .rightThree,.firstLine .firstLineRight .rightFour{
+	float: left;
+	height: 34px;
+	line-height: 30px;
+}
+.firstLine .firstLineRight span{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	height: 24px;
+	padding-top: 6px;
+	cursor: pointer;
+}
+.firstLine .firstLineRight .rightOne{
+	width: 155px;
+	margin-left: 60px;
+}
+.firstLine .firstLineRight .rightOne input{
+	width: 40px;
+	height: 19px;
+	border: 1px solid #DDDDDD;
+	padding-left: 2px;
+}
+.firstLine .firstLineRight .rightTwo{
+	width: 242px;
+	margin-left: 65px;
+}
+.firstLine .firstLineRight .rightThree{
+	width: 153px;
+	margin-left:60px;
+	margin-top: 12px;
+}
+.firstLine .firstLineRight .rightFour{
+	width: 237px;
+	margin-left: 68px;
+	margin-top: 12px;
+}
+.firstLine .firstLineRight .rightBtn{
+	float: right;
+	height: 34px;
+	margin-top: 8px;
+	margin-right: 100px;
+	cursor: pointer;
+}
+/**text :linkType**/
+.linkType{
+	width: 200px;
+	padding-top: 10px;
+	height: 127px;
+}
+.linkType p,.linkPrice p{
+	height: 24px;
+	line-height: 24px;
+	text-indent: 30px;
+}
+/**text :linkPrice**/
+.linkPrice{
+	width: 200px;
+	height: 100px;
+}
+/**secondLine**/
+.secondLine{
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondLine .secondLeft,.secondLine .secondCenter,.secondLine .secondRight{
+	float: left;
+}
+.secondLine .secondLeft{
+	width: 320px;
+	height: 429px;
+	background: url(../img/index/secondLine/1.jpg) 0px 0px no-repeat;
+}
+.secondLine .secondLeft .imgMore{
+	width: 320px;
+	height: 180px;
+	cursor: pointer;
+}
+.secondLine .secondLeft .imgMore a{
+	display: block;
+	width: 320px;
+	height: 180px;
+}
+.secondLine .secondCenter{
+	width: 259px;
+	height: 429px;
+}
+.secondLine .secondRight{
+	width: 600px;
+	height: 429px;
+}
+.secondLine .secondRight img{
+	float: left;
+}
+/**thirdLine**/
+.thirdLine{
+	width: 1180px;
+	height: 116px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.thirdLine .thirdLeft{
+	width: 586px;
+	height: 116px;
+	float: left;
+}
+.thirdLine .thirdRight1,.thirdLine .thirdRight2,.thirdLine .thirdRight3{
+	float: left;
+	height: 116px;
+}
+/**fourthLine**/
+.fourthLine{
+	width: 1180px;
+	height: 429px;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.fourthLine .fourthLeft,.fourthLine .fourthCenter,.fourthLine .fourthRight{
+	float: left;
+}
+.fourthLine .fourthLeft{
+	width: 320px;
+	height: 429px;
+	background: url(../img/index/fourthLine/1.jpg) 0px 0px no-repeat;
+	
+}
+.fourthLine .fourthLeft .imgMore{
+	width: 320px;
+	height: 180px;
+	cursor: pointer;
+}
+.fourthLine .fourthCenter{
+	width: 600px;
+	height: 429px;
+}
+.fourthLine .fourthCenter img{
+	float: left;
+}
+.fourthLine .fourthRight img,.seventhLine .seventhRight img,.eighthLine .eighthRight img{
+	width: 259px;
+	height: 429px;
+}
+.fourthLine .fourthRight{
+	width: 258px;
+	height: 429px;
+	border-right: 1px solid #DDDDDD;
+}
+/**fifthLine**/
+.fifthLine{
+	width: 1180px;
+	height: 429px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.fifthLine .fifthLeft,.fifthLine .fifthCenter,.fifthLine .fifthRight{
+	float: left;
+}
+.fifthLine .fifthLeft{
+	width: 320px;
+	height: 429px;
+	background: url(../img/index/fifthLine/1.jpg) 0px 0px no-repeat;
+}
+.fifthLine .fifthLeft .imgMore{
+	width: 320px;
+	height: 180px;
+	cursor: pointer;
+}
+.fifthLine .fifthLeft .imgMore a{
+	display: block;
+	width: 320px;
+	height: 180px;
+}
+.fifthLine .fifthCenter{
+	width: 259px;
+	height: 429px;
+}
+.fifthLine .fifthRight{
+	width: 600px;
+	height: 429px;
+	border-right: 1px solid #DDDDDD;
+}
+.fifthLine .fifthRight img{
+	float: left;
+}
+/**sixthLine**/
+.sixthLine{
+	width: 1180px;
+	height: 116px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/**seventhLine**/
+.seventhLine{
+	width: 1180px;
+	height: 429px;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.seventhLine .seventhLeft,.seventhLine .seventhCenter,.seventhLine .seventhRight{
+	float: left;
+}
+.seventhLine .seventhLeft{
+	width: 320px;
+	height: 429px;
+	background: url(../img/index/seventhLine/1.jpg) 0px 0px no-repeat;
+	
+}
+.seventhLine .seventhLeft .imgMore{
+	width: 320px;
+	height: 180px;
+	cursor: pointer;
+}
+.seventhLine .seventhCenter{
+	width: 600px;
+	height: 429px;
+}
+.seventhLine .seventhCenter img{
+	float: left;
+}
+.seventhLine .seventhRight{
+	width: 259px;
+	height: 429px;
+	border-right: 1px solid #DDDDDD;
+}
+/**eighthLine**/
+.eighthLine{
+	width: 1180px;
+	height: 429px;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.eighthLine .eighthLeft,.eighthLine .eighthCenter,.eighthLine .eighthRight{
+	float: left;
+}
+.eighthLine .eighthLeft{
+	width: 320px;
+	height: 429px;
+	background: url(../img/index/eighthLine/1.jpg) 0px 0px no-repeat;
+	
+}
+.eighthLine .eighthLeft .imgMore{
+	width: 320px;
+	height: 180px;
+	cursor: pointer;
+}
+.eighthLine .eighthCenter{
+	width: 600px;
+	height: 429px;
+}
+.eighthLine .eighthCenter img{
+	float: left;
+}
+.eighthLine .eighthRight{
+	width: 259px;
+	height: 429px;
+	border-right: 1px solid #DDDDDD;
+}
+/**infoNews**/
+.infoNews{
+	width: 1180px;
+	height: 290px;
+	margin: 0 auto;
+}
+.infoNews .infoNewsOne,.infoNews .infoNewsTwo,.infoNews .infoNewsThree{
+	float: left;
+	width: 320px;
+	height: 288px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+}
+.infoNews .infoNewsFour{
+	float: left;
+	width: 184px;
+	height: 290px;
+}
+.infoNews .infoTitle{
+	width: 320px;
+	height: 33px;
+	line-height: 33px;
+	text-indent: 15px;
+    font-weight: bold;
+	background: url(../img/index/newsLine/headbg.jpg) 0px 0px repeat-x;
+}
+.infoNews .infoImg{
+	width: 310px;
+	padding: 5px 5px;
+	height: 90px;	
+}
+.infoNews .infoList{
+	width: 310px;
+	padding-top: 10px;
+}
+.infoNews .infoList p{
+	width: 300px;
+	padding-left: 10px;
+	height: 27px;
+	line-height: 27px;
+}

@@ -1,0 +1,483 @@
+.center{
+	width: 100%;
+	padding-bottom: 35px;
+	background: rgb(241,241,241);
+	overflow: hidden;
+}
+.center .centerTop{
+	width: 1180px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+    text-indent: 15px;
+}
+.center .mainDetails{
+	margin: 0 auto;
+    width: 1178px;
+    height: 598px;
+    border: 1px solid #D2D2D2;
+    background: #FFFFFF;
+}
+.center .mainDetails .topLine{
+	width: 1178px;
+	height: 15px;
+    border-top: 2px solid #FFC0C1;
+}
+.center .mainDetails .mainImg{
+	float: left;
+    padding: 15px 25px;
+    width: 450px;
+    border-right: 1px solid #D2D2D2;
+   
+}
+.center .mainDetails .mainImg .bigImg{
+    margin: 0 10px;
+    width: 422px;
+    height: 422px;
+    text-align: center;
+ 	opacity: 1;
+ 	filter: alpha(opacity=100);
+}
+.center .mainDetails .mainImg .bigImg img{
+ 	width: 420px;
+ 	height: 420px;
+ 	position: relative;
+ } 
+.center .mainDetails .mainImg .bigImg .fangdajing{
+	top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+   	border: 1px solid #CCCCCC;
+    cursor: crosshair;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background: white;
+    display: none;
+}  
+.center .mainDetails .mainImg .bigImg .bigerPic{
+ 	width: 420px;
+    height: 420px;
+ 	position: absolute;
+    z-index: 5001;
+    left: 600px;
+    top: 263px;
+    display: none;
+    border: 1px solid #CCCCCC;
+    overflow: hidden;
+    
+ }
+ .center .mainDetails .mainImg .bigImg .bigerPic img{
+ 	width: 840px;
+ 	height: 840px;
+ 	position: absolute;
+	top: 0;
+	left: 0;
+ }
+.center .mainDetails .mainImg .smallImg{
+	margin: 10px 10px 0 10px; 
+	width: 422px; 
+	height: 102px;
+	position: relative; 
+	text-align: center; 
+	overflow: hidden; 
+ }
+.center .mainDetails .mainImg .smallImg img{
+	width: 88px; 
+	height: 88px; 
+	border: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	
+}
+.center .mainDetails .mainImg .smallImg .smallone{
+	padding: 1px 18px;
+    width: 384px;
+}
+    
+.center .mainDetails .mainImg .smallImg .smallone ul{
+	clear: both;
+	overflow: hidden;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 800px;
+}
+.center .mainDetails .mainImg .smallImg ul li{
+	float: left;
+	margin-left: 1px;
+    margin-right: 1px;
+    width: 95px;
+    height: 98px;
+    cursor: pointer;
+
+}
+.center .mainDetails .mainImg .smallImg ul li img:hover{
+	border: 1px solid darkred;
+}
+.center .mainDetails .mainImg .smallImg .pre{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 90px;
+    cursor: pointer;
+    background: white url(../img/goodDetail/common/ui-jcarousel-prev.gif) -52px 0px;
+}
+.center .mainDetails .mainImg .smallImg .next{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 18px;
+    height: 90px;
+    cursor: pointer;
+    background: white url(../img/goodDetail/common/ui-jcarousel-next.gif) 0px 0px;   
+}
+.center .mainDetails .mainInfo{
+	float: right;
+    padding: 15px 5px;
+    width: 600px;
+}
+.center .mainDetails .mainInfo .goodsInfo{
+	float: left;
+    width: 530px;
+}
+.center .mainDetails .mainInfo .goodsInfo .text{
+	float: left;
+    width: 100px;
+    line-height: 38px;
+    text-align: right;
+    overflow: hidden;
+}
+.center .mainDetails .mainInfo .goodsInfo .diamName,.center .mainDetails .mainInfo .goodsInfo .marketPrice,
+.center .mainDetails .mainInfo .goodsInfo .mallPrice,.center .mainDetails .mainInfo .goodsInfo .cMaterial,
+.center .mainDetails .mainInfo .goodsInfo .weight,.center .mainDetails .mainInfo .goodsInfo .priceExplain,
+.center .mainDetails .mainInfo .goodsInfo .weight,.center .mainDetails .mainInfo .goodsInfo .certExplain,
+.center .mainDetails .mainInfo .goodsInfo .special,.center .mainDetails .mainInfo .goodsInfo .deliver,
+.center .mainDetails .mainInfo .goodsInfo .others{
+	float: left;
+    width: 430px;
+    line-height: 38px;
+}
+.center .mainDetails .mainInfo .goodsInfo .diamName{
+	font-weight: bold;
+    font-size: 13px;
+}
+.center .mainDetails .mainInfo .goodsInfo .marketPrice{
+	color: #888888;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.center .mainDetails .mainInfo .goodsInfo .mallPrice{
+	color: #DB3962;
+    font-size: 14px;
+    font-weight: bold;
+}
+.center .mainDetails .mainInfo .goodsInfo .cMaterial span{
+	padding: 5px 10px;
+    /*background: #DB3962;*/
+    background: #CCCCCC;
+    /*color: #FFFFFF;*/
+    color: #222222;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.center .mainDetails .mainInfo .goodsInfo .cMaterial .cl{
+	background: #DB3962;
+    color: #FFFFFF;
+}  
+.center .mainDetails .mainInfo .goodsInfo .cMaterial span:hover{
+	padding: 5px 10px;
+    background: #DB3962;
+    color: #FFFFFF;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.center .mainDetails .mainInfo .goodsInfo .weight a{
+	color: #A00005; 
+}
+.center .mainDetails .mainInfo .goodsInfo .special a{
+	color: red;
+}  
+.center .mainDetails .mainInfo .submit{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-top: 10px;
+    width: 450px;
+    border-top: 1px dashed #D2D2D2;  
+}
+.center .mainDetails .mainInfo .submit .cart,.center .mainDetails .mainInfo .submit .collect{
+	float: left;
+}
+.center .mainDetails .mainInfo .submit .cart{
+	loat: left;
+    margin-top: 12px;
+    margin-right: 12px;
+    background: url(../img/goodDetail/common/addtocart_zuan.png) no-repeat;
+    width: 227px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+} 
+.center .mainDetails .mainInfo .submit .collect{
+	float: left;
+    margin-top: 12px;
+    margin-right: 12px;
+    background: url(../img/goodDetail/common/addtofavor.png) no-repeat;
+    width: 126px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+}
+ 	/*float: left;
+    width: 450px;
+    height: 60px;
+    overflow: hidden;*/
+.center .details{
+	width: 1180px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.center .details .left{
+	width: 242px;
+	float: left;
+}
+.center .details .left .leftTitle{
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    font-weight: bold;
+    border: 1px solid #D2D2D2;
+    background: url(../img/goodDetail/common/listbg.gif);
+    color: #DB3962;
+}
+.center .details .left .promisebg{
+    width: 240px;
+    height: 231px;
+    border-left: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+.center .details .left .leftHost,.center .details .left .leftHistory{
+    margin-top: 20px;
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    font-weight: bold;
+    border: 1px solid #D2D2D2;
+    background: url(../img/goodDetail/common/listbg.gif);
+}
+.center .details .left .hostGoods,.center .details .left .historyGoods{
+	width: 240px;
+    border-left: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    background: white;
+    overflow: hidden;
+}
+.center .details .left .hostGoods .hostGoodsList{
+	overflow: hidden;
+}
+.center .details .left .hostGoods .hostGoodsList img,.center .details .left .historyGoods .hostGoodsList img{
+	width: 200px;
+	height: 200px;
+	margin:5px 20px;
+	border: none;
+}
+.center .details .left .hostGoods .hostGoodsList p,.center .details .left .historyGoods .hostGoodsList p{
+	margin-top: 3px;
+	padding: 0px 5px;
+    width: 230px;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #D2D2D2;
+    background: #FFFFFF;
+    overflow: hidden;
+} 
+.center .details .right{
+	float: right;
+    width: 910px;
+    border: 1px solid #D2D2D2;
+    background: #FFFFFF;
+}
+.center .details .right .rightTitle{
+	width: 910px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #D2D2D2;
+    background: url(../img/goodDetail/common/listbg.gif);
+}
+.center .details .right .rightTitle ul li{
+	float: left;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border-right: 1px solid #CCCCCC;
+} 
+.center .details .right .rightTitle ul li a{
+	color: #222222;
+}
+/*产品信息*/
+.center .details .right .prodInfo{
+	width: 712px;
+    text-align: center;
+    padding: 20px 45px 0 80px;
+    clear: both;
+}
+.center .details .right .prodInfo img{
+	min-width: 712px;
+    padding: 20px;
+}
+
+/*产品服务*/
+.center .details .right .prodServ{
+	width: 712px;
+    text-align: left;
+    padding: 20px 98px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.center .details .right .servTitle{
+    width: 712px;
+    clear: both;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 12px;
+    padding: 20px 0 12px 0;
+    background: url(../img/goodDetail/common/logobg.gif) no-repeat 0 20px;
+    text-indent: 28px;
+    font-size: 14px;
+}
+/*.center .details .right .prodServ .coaContent p,.center .details .right .prodServ .quaContent p,
+.center .details .right .prodServ .letContent p,.center .details .right .prodServ .pacContent p,
+.center .details .right .prodServ .logContent p,.center .details .right .prodServ .aftContent p,
+.center .details .right .prodServ .maiContent p{
+	text-indent: 24px;
+    clear: both;
+    width: 712px;
+}*/
+.center .details .right .prodServ p,.center .details .right .prodQues p{
+	text-indent: 24px;
+    clear: both;
+    width: 712px;
+}
+.center .details .right .prodQues p{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.center .details .right .prodServ .coaContent img{
+	display: inline;
+	margin-left:42px ;
+}   
+.center .details .right .prodServ .quaContent .quaApart .quaApartContent,.center .details .right .prodServ .quaContent .quaApart .quaApartImg{
+	float: left;
+} 
+.center .details .right .prodServ .quaContent .quaApartTop,.center .details .right .prodServ .quaApartBot{
+	clear: both;
+	overflow: hidden;
+	margin-top: 20px;
+} 
+.center .details .right .prodServ .quaContent .quaApartTop b,.center .details .right .prodServ .quaApartBot b{
+	width: 485px;
+    height: 30px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.center .details .right .prodServ .quaContent .quaApart .quaApartContent,.center .details .right .prodServ .quaContent .quaApart .quaApartContent p{
+	width: 485px;
+	text-indent: 0;
+}
+.center .details .right .prodServ .quaContent .quaApart .quaApartTop .quaApartImg{
+	width: 210px;
+    height: 137px;
+    text-align: -webkit-right;
+    margin-left: 5px; 
+}
+.center .details .right .prodServ .quaContent .quaApart .quaApartBot .quaApartImg{
+	width: 210px;
+    height: 137px;
+    margin-right: 5px;
+    text-align: -webkit-left; 
+}
+.center .details .right .prodServ .letter .letContent img{
+	margin-left: 24px;
+}
+.center .details .right .prodServ .pack .pacContent{
+    width: 700px;
+    height: 290px;
+    background: url(../img/goodDetail/common/cpt8.jpg) no-repeat;
+    margin: 20px 0 0 0;
+} 
+.center .details .right .prodServ .pack .pacContent p{
+	float: right;
+    width: 290px;
+    text-indent: 24px;
+    padding: 25px 20px 0 0;
+}
+.center .details .right .prodServ .logistics .logContent{
+    width: 700px;
+    height: 280px;
+    background: url(../img/goodDetail/common/cpt9.jpg) no-repeat;
+    margin-top: 10px;
+}
+.center .details .right .prodServ .logistics .logContent p{
+	float: left;
+    width: 274px;
+    margin: 40px 0 0 47px;
+    text-indent: 24px;
+}
+.center .details .right .prodServ .aftContent .aftLeft,.center .details .right .prodServ .aftContent .aftRight{
+	float: left;
+	width: 350px;
+	margin-top: 30px;
+}
+
+.center .details .right .prodServ .aftContent .aftLeft dt,.center .details .right .prodServ .aftContent .aftRight dt{
+	float: left;
+	width: 80px;
+} 
+.center .details .right .prodServ .aftContent .aftLeft dd,.center .details .right .prodServ .aftContent .aftRight dd{
+	float: left;
+}
+.center .details .right .prodServ .aftContent .aftLeft dd b,.center .details .right .prodServ .aftContent .aftRight dd b{
+	display: block;
+	font-weight: bold;
+	height: 37px;
+}
+.center .details .right .prodServ .aftContent .aftLeft dd,.center .details .right .prodServ .aftContent .aftRight dd{
+	width: 270px;
+}
+.center .details .right .prodServ .maintain .maiContent .maiContentLore{
+	margin-top: 30px;
+}
+.center .details .right .prodServ .maintain .maiContent .maiContentLore .maiContentLoreLeft{
+	float: left;
+	width: 265px;
+}
+.center .details .right .prodServ .maintain .maiContent .maiContentLore .maiContentLoreCenter{
+	float: left;
+	width: 244px;
+}
+.center .details .right .prodServ .maintain .maiContent .maiContentLore .maiContentLoreCenter p{
+	width: 244px;
+	text-indent: 0;
+}
+.center .details .right .prodServ .maintain .maiContent .maiContentLore .maiContentLoreRight{
+	float: right;
+	width: 191px;
+}   
+/*常见问题*/
+.center .details .right .prodQues{
+	width: 712px;
+    text-align: left;
+    padding: 20px 98px;
+    line-height: 24px;
+}
+	 
